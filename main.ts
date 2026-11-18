@@ -1,3 +1,12 @@
+// Solmar City — an open-world crime game for the make.fun gta6-01 bounty.
+// The game is this directory's game/ folder: plain static files a desktop
+// browser loads offline (game/index.html and its ES modules, no library
+// and no network request). The program hands it in: it copies game/ and
+// screenshots/ from beside this file to /output and writes
+// /output/dossier.json, the summary the judge reads, with the vendored
+// make.fun library. Solmar City itself is a 2D top-down coastal city —
+// drive and steal cars, dodge the police wanted system, run four story
+// missions for the fixer Mara Voss, and fight on foot with a pistol.
 // A working gta6-01 entry (Node 22, standard library only): the game is this directory's
 // game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
 // modules, no library and no network request), and the program hands it in. It copies game/ and
